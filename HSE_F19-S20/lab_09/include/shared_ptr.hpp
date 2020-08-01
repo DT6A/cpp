@@ -54,4 +54,7 @@ private:
 
 private:
     Storage *storage_;
+
+    void decrPtr();
+    void incrPtr();
 };

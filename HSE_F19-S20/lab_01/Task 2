@@ -1,0 +1,13 @@
+I) Commented
+/*
+void logDebug(char c) {
+	printf("%c\n", c);
+}*/
+in "io.c" file.
+
+
+II) added
+void logDebug(char c)
+{
+}
+to the "io.c" file.

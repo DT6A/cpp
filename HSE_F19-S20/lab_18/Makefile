@@ -1,7 +1,7 @@
 .PHONY: all clean
 
-CXX = g++
-CXXFLAGS = -O2 -Wall -Wextra -Werror -std=c++17 -Iinclude
+CXX = clang++-10
+CXXFLAGS = -O2 -Wall -Wextra -Werror -std=c++17 -Iinclude -pedantic -stdlib=libc++ -Ihana-boost-1.73.0/include
 LDFLAGS = 
 
 BINDIR = bin
